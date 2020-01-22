@@ -7,3 +7,38 @@
 
 html {
   font-size: 62.5%; }
+
+body {
+  font-family: 'Fira Sans', sans-serif; }
+
+.img__container {
+  width: 10rem; }
+  .img__container--pic {
+    width: 100%; }
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 1.6rem;
+  padding: 0 2rem;
+  color: white; }
+
+.club-name {
+  display: inline-block;
+  font-size: 2rem; }
+
+.title {
+  height: 100vh; }
+
+.box {
+  background-color: white;
+  height: 40vh;
+  width: 40vh;
+  margin: 2rem;
+  background-image: url("../../img/thomas-serer-r-xKieMqL34-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-size: 3rem; }
+
+.footer {
+  background-color: #000;
+  height: 20rem; }
