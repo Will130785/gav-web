@@ -5,16 +5,17 @@
     // background-size: cover;
 }
 
-.box-main {
+.box-news {
     background-color: white;
     height: 86vh;
     // width: 40vh;
     margin: 2rem;
-    background-image: url("../../img/thomas-serer-r-xKieMqL34-unsplash.jpg");
+    // background-image: url("../../img/thomas-serer-r-xKieMqL34-unsplash.jpg");
     background-position: center;
     background-size: cover;
-    color: white;
     font-size: 3rem;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, .6);
+    border-radius: 1rem;
 }
 
 .box-next {
@@ -22,14 +23,17 @@
     height: 40vh;
     // width: 40vh;
     margin: 2rem;
-    background-image: url("../../img/thomas-serer-r-xKieMqL34-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
     color: white;
     font-size: 3rem;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, .6);
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.box-social {
+.box-table {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -38,14 +42,16 @@
     height: 40vh;
     // width: 40vh;
     margin: 2rem;
-    background-color: #000;
+    background-color:#fff;
     color: white;
     font-size: 3rem;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, .6);
+    border-radius: 1rem;
 }
 
 .next-game {
-    width: 100%;
-    height: 100%;
+    width: 85%;
+    height: 85%;
 }
 
 .footer {
@@ -53,11 +59,3 @@
     height: 20rem;
 } 
 
-.icon-box {
-
-}
-
-.icon {
-    height: 10rem;
-    width: 10rem;
-}

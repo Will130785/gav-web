@@ -1,3 +1,4 @@
+// Global Reset
 *,
 *::before,
 *::after {
@@ -13,4 +14,8 @@ html {
 body {
     font-family: 'Fira Sans', sans-serif;
     background-color: rgb(196, 5, 5);
+}
+
+.section-main {
+    padding: 3rem;
 }
